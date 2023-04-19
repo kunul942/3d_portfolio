@@ -61,7 +61,7 @@ const ComputerCanvas = () => {
             mediaQuery.removeEventListener("change", handleMediaQueryChange)
         }
 
-    }, [])
+    }, [isMobile])
     
 
     return(
