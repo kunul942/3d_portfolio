@@ -6,11 +6,10 @@ import { ComputersCanvas } from './canvas'
 const Hero = () =>{
     return(
         // <section className="relative w-full h-screen mx-auto"> 
-        <section className="relative w-full mx-auto pb-[10rem]"> 
+        <section className="relative w-full mx-auto pb-[15rem]"> 
 
             {/* generar background */}
-            {/* <div className={`${ styles.paddingX } absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}> */}
-            <div className={`${ styles.paddingX } flex`}>
+            <div className={`${ styles.paddingX } inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
                 {/* <div className="flex flex-col justify-center items-center m-5"> */}
 
                     <div className="w-5 h-5 rounded-full bg-[#915eff]"></div> {/*crear circulo*/}
