@@ -80,14 +80,14 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
     // {
     //   name: "Tailwind CSS",
     //   icon: tailwind,
