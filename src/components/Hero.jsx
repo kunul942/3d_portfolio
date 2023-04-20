@@ -28,7 +28,7 @@ const Hero = () =>{
             </div>
 
             {/* computadora 3D */}
-            <ComputersCanvas />
+            {/* <ComputersCanvas /> */}
 
             {/* scrolling gif */}
             {/* <div className="absolute bottom-10 w-full flex justify-center items-center">
