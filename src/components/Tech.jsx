@@ -2,11 +2,15 @@ import { BallCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { technologies } from '../constant'
 
+import { motion } from 'framer-motion'
+import { styles } from '../styles'
+import { textVariant } from '../utils/motion'
+
 
 const Tech = () => {
 
     return (
-            <div className="flex flex-row flex-wrap justify-center gap-10">
+            <div className="mt-[3rem] mb-[3rem] flex flex-wrap justify-center gap-10">
                 
                 { technologies.map(( technology )=>(
                     <div 
@@ -18,9 +22,6 @@ const Tech = () => {
                 ))}            
             </div>
     )
-
-
-
 }
 
 export default SectionWrapper( Tech, "")
