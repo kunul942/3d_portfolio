@@ -39,8 +39,9 @@ const BallCanvas = ({ icon }) =>{
 
     return (
         <Canvas 
-            // frameloop="" 
-            gl = {{ preserveDrawingBuffer: false }}
+            // frameloop="always" 
+            frameloop="always" 
+            gl = {{ preserveDrawingBuffer: true }}
             >
 
             <Suspense fallback={ <CanvasLoader /> }> 
@@ -48,7 +49,7 @@ const BallCanvas = ({ icon }) =>{
                 <OrbitControls enableZoom={ true } />
             </Suspense> 
 
-            <Preload all />
+            {/* <Preload all /> */}
         </Canvas>
     )
 
