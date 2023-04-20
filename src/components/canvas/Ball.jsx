@@ -42,9 +42,9 @@ const BallCanvas = ({ icon }) =>{
             // frameloop="" 
             gl = {{ preserveDrawingBuffer: false }}
             >
-                <Ball imgUrl= { icon } />
 
             <Suspense fallback={ <CanvasLoader /> }> 
+                <Ball imgUrl= { icon } />
                 {/* <OrbitControls enableZoom={ true } /> */}
             </Suspense> 
 
