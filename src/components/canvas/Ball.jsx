@@ -39,7 +39,7 @@ const BallCanvas = ({ icon }) =>{
 
     return (
         <Canvas 
-            frameloop="always" 
+            // frameloop="" 
             gl = {{ preserveDrawingBuffer: false }}
             >
                 <Ball imgUrl= { icon } />
