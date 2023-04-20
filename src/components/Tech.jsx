@@ -6,7 +6,8 @@ import { technologies } from '../constant'
 const Tech = () => {
 
     return (
-        <div className="flex flex-row flex-wrap justify-center gap-10">
+        // <div className="flex flex-row flex-wrap justify-center gap-10">
+        <div className="flex flex-wrap justify-center gap-10">
             { technologies.map(( technology )=>(
                 <div 
                     key={ technology.name }
