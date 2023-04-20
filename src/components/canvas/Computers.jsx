@@ -6,8 +6,6 @@ import CanvasLoader from '../Loader'
 
 const Computers = ({ isMobile }) => {
 
-
-computadora 3D
     const computer = useGLTF('./desktop_pc/scene.gltf')
 
 
