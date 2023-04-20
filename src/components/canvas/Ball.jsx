@@ -17,15 +17,15 @@ const Ball = ( props ) => {
 
                 <meshStandardMaterial 
                     color="#fff8eb"
-                    // polygonOffset
+                    polygonOffset
                     polygonOffsetFactor={-5}  
-                    // flatShading               
+                    flatShading               
                 />
 
                 <Decal 
                     position={[ 0, 0, 1 ]}
                     rotation={[ 2 * Math.PI, 0, 6.25 ]}
-                    // flatShading
+                    flatShading
                     map={ decal }
                 />
             </mesh>
@@ -39,16 +39,16 @@ const BallCanvas = ({ icon }) =>{
 
     return (
         <Canvas 
-            // frameloop="demand" 
-            // gl = {{ preserveDrawingBuffer: false }}
+            frameloop="always" 
+            gl = {{ preserveDrawingBuffer: false }}
             >
                 <Ball imgUrl= { icon } />
 
-            {/* <Suspense fallback={ <CanvasLoader /> }> 
-                <OrbitControls enableZoom={ false } />
-            </Suspense> */}
+            <Suspense fallback={ <CanvasLoader /> }> 
+                {/* <OrbitControls enableZoom={ true } /> */}
+            </Suspense> 
 
-            {/* <Preload all /> */}
+            <Preload all />
         </Canvas>
     )
 
