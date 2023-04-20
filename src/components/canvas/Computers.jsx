@@ -11,6 +11,8 @@ const Computers = ({ isMobile }) => {
 
 
     return (
+
+
         <mesh>
             {/* luces para el pc*/ }
             <hemisphereLight intensity={0.15} groundColor="black" />
@@ -25,11 +27,16 @@ const Computers = ({ isMobile }) => {
             />
  
             {/* dimensiones y medidas */ }
+            {/* <primitive 
+                object={ computer.scene } 
+                scale={ isMobile ? 0.7 : 0.75}
+                position={ isMobile ? [0, -3, -2.2] : [0, -3.25,-1.5]}
+                rotation={[-0.01, -0.2, -0.1]}
+            /> */}
             <primitive 
                 object={ computer.scene } 
-                // scale={ isMobile ? 0.7 : 0.75}
-                scale={ isMobile ? 0.5 : 0.55}
-                position={ isMobile ? [0, -3, -2.2] : [0, -3.25,-1.5]}
+                scale={ 0.60 }
+                position={ [0, -3.25,-1.5]}
                 rotation={[-0.01, -0.2, -0.1]}
             />
         </mesh>
@@ -41,47 +48,54 @@ const Computers = ({ isMobile }) => {
 const ComputerCanvas = () => {
 
     //mobile
-    const [isMobile, setIsMobile] = useState( false )
-    useEffect(() => {
-        // Add a listener for changes to the screen size
-        const mediaQuery = window.matchMedia("(max-width: 1500px)")
-        console.log({ mediaQuery: mediaQuery.matches })
-        //Set the initial value of the 'isMobile state variable'
-        setIsMobile( mediaQuery.matches )
+    // const [isMobile, setIsMobile] = useState( false )
+    // useEffect(() => {
+    //     // Add a listener for changes to the screen size
+    //     const mediaQuery = window.matchMedia("(max-width: 500px)")
+    //     console.log({ mediaQuery: mediaQuery.matches })
+    //     //Set the initial value of the 'isMobile state variable'
+    //     setIsMobile( mediaQuery.matches )
 
-        //Define a callback function to handle changes to the media query
-        const handleMediaQueryChange = ( event ) =>{
-            setIsMobile( event.matches )
-        }  
+    //     //Define a callback function to handle changes to the media query
+    //     const handleMediaQueryChange = ( event ) =>{
+    //         setIsMobile( event.matches )
+    //     }  
 
-        //Add the callback function as a listener for changes to the media query
-        mediaQuery.addEventListener("change", handleMediaQueryChange) 
+    //     //Add the callback function as a listener for changes to the media query
+    //     mediaQuery.addEventListener("change", handleMediaQueryChange) 
 
-        //Remove the listener when the component is unmounted
-        return () =>{ 
-            mediaQuery.removeEventListener("change", handleMediaQueryChange)
-        }
+    //     //Remove the listener when the component is unmounted
+    //     return () =>{ 
+    //         mediaQuery.removeEventListener("change", handleMediaQueryChange)
+    //     }
 
-    }, [])
+    // }, [])
     
 
     return(
         <Canvas 
             frameloop="demand" 
             shadows 
-            camera= {{ position: [ 20, 3, 5 ], fov: 25 }}
             gl = {{ preserveDrawingBuffer: true }}
+            camera= {{ 
+                fov: 25,  
+                near: 0.1,
+                far: 200,
+                position: [ 20, 3, 5 ], 
+            }}
         >
             <Suspense fallback={ <CanvasLoader /> }>
                 <OrbitControls 
+                    autoRotate
                     enableZoom={ false } 
                     maxPolarAngle={Math.PI / 2}
                     minPolarAngle={Math.PI / 2}
                 />
-                <Computers isMobile={ isMobile } />
+                {/* <Computers isMobile={ isMobile } /> */}
+                <Computers />
             </Suspense>
 
-            <Preload all />
+            {/* <Preload all /> */}
         </Canvas>
     )
 }
