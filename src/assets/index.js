@@ -9,8 +9,8 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import figma from "./tech/figma.png";
-// import html from "./tech/html.png";
-import html from "./tech/html-1.svg"; //--test
+import html from "./tech/html.png";
+// import html from "./tech/html-1.svg"; //--test
 import css from "./tech/css.png";
 import javascript from "./tech/javascript.png";
 import git from "./tech/git.png";
