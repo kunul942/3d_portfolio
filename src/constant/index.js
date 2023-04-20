@@ -81,10 +81,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
     },
@@ -92,6 +88,10 @@ import {
       name: "git",
       icon: git,
     },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
     // {
     //   name: "Redux Toolkit",
     //   icon: redux,
