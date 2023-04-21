@@ -2,9 +2,6 @@ import { BallCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { technologies } from '../constant'
 
-import { motion } from 'framer-motion'
-import { styles } from '../styles'
-import { textVariant } from '../utils/motion'
 
 
 const Tech = () => {
@@ -17,7 +14,7 @@ const Tech = () => {
                         key={ technology.name }
                         className="w-28 h-28"
                     >
-                        <BallCanvas icon={ technology.icon } />
+                        <BallCanvas icon={ technology.icon } name={ technology.name } />
                     </div>
                 ))}            
             </div>

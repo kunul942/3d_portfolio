@@ -84,34 +84,34 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    // {
-    //   name: "git",
-    //   icon: git,
-    // },
-    // {
-    //   name: "Tailwind CSS",
-    //   icon: tailwind,
-    // },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "Redux Toolkit",
+      icon: redux,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
     // {
     //   name: "Three JS",
     //   icon: threejs,
     // },
-    // {
-    //   name: "figma",
-    //   icon: figma,
-    // },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
+    {
+      name: "figma",
+      icon: figma,
+    },
+    {
+      name: "docker",
+      icon: docker,
+    },
   ];
   
   const experiences = [
