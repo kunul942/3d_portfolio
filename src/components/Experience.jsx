@@ -39,9 +39,10 @@ const ExperienceCard = ({ experience }) =>{
                 { experience.points.map(( point, index )=>(
                     <li
                         key={`experience-point-${ index }`}
-                        className="text-white-100 text-[14px] pl-1 tracking-wider"
+                        className="text-secondary text-[14px] pl-1 tracking-wider "
                     >
-                        { point }
+                        <strong className="text-white">{ point.title}</strong>
+                        { point.text }
                     </li>
                 ))}
             </ul>
@@ -55,15 +56,15 @@ const ExperienceCard = ({ experience }) =>{
 const Experience = () => {
     return (
         <>
-            <motion.div variants={ textVariant() } >
-                <p className={ styles.sectionSubText }>
+            {/* <motion.div variants={ textVariant() } > */}
+                <p className={ styles.sectionSubText } >
                     What I have done so far
                 </p>
 
                 <h2 className={ styles.sectionHeadText }>
                     Work Experience
                 </h2>
-            </motion.div > 
+            {/* </motion.div >  */}
 
             <div className="mt-20 flex flex-cool">
                 <VerticalTimeline>

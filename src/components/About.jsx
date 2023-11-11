@@ -54,9 +54,7 @@ const About = () => {
                 variants={ fadeIn("", "", 0.1, 1) }
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
             >
-                I'm a skilled software developer with experience in Javascript and expertise in frameworks like React, Node.js. 
-                I am a quick learner who has created efficient, scalable, and user-friendly websites with lots of different functionalities and usages. 
-                Let's work together to bring your ideas to life!
+                Passionate Full Stack Developer with expertise in JavaScript, TypeScript, React.js, Node.js, and Next.js. I thrive on solving complex technical challenges and building successful projects. My journey into full-stack development was driven by a love for innovation and a desire to make a meaningful impact in the tech world. I believe in the power of clean code, continuous learning, and collaborative problem-solving. When I'm not coding, you'll find me exploring the outdoors and indulging in my love for teaching and learning languages.
             </motion.p>
 
             {/* tecnologias */}

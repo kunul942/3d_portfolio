@@ -8,9 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import figma from "./tech/figma.png";
 import html from "./tech/html.png";
-// import html from "./tech/html-1.svg"; //--test
 import css from "./tech/css.png";
 import javascript from "./tech/javascript.png";
 import git from "./tech/git.png";
@@ -22,15 +20,29 @@ import tailwind from "./tech/tailwind.png";
 import docker from "./tech/docker.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import weddingJoseDaniel from "./company/wedding.jpg";
+import taller from "./company/logo-taller.png";
+import calendar from "./company/calendario.png";
+import tsks from "./company/tsks.png";
+
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import projectWeddingJoseDaniel from './projectWeddingJoseDaniel.jpeg'
+import projectTallerJR from './projectTallerJR.jpeg'
+import projectCalendar from './projectCalendar.jpeg'
+import projectJournal from './projectJournal.jpeg'
+import projectTsks from './projectTsks.jpeg'
+
 
 export {
   logo,
@@ -42,7 +54,6 @@ export {
   github,
   menu,
   close,
-  figma,
   html,
   css,
   git,
@@ -51,6 +62,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   typescript,
@@ -59,7 +71,16 @@ export {
   shopify,
   starbucks,
   tesla,
+  weddingJoseDaniel,
+  taller,
+  calendar,
+  tsks,
   carrent,
   jobit,
   tripguide,
+  projectWeddingJoseDaniel,
+  projectTallerJR,
+  projectCalendar,
+  projectJournal,
+  projectTsks,
 };

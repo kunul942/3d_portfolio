@@ -59,7 +59,6 @@ const Contact = () => {
                 confirmButtonText: 'Cool'
             })
 
-
             setForm({
                 name: '',
                 email: '',
