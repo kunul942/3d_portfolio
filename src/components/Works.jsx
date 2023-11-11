@@ -17,7 +17,7 @@ const ProjectCard =({ index, name, description, tags, image, source_code_link, u
                 className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
             >   
                 {/* mostrar card de los proyectos */}
-                <Link to={url}>
+                <div onClick={ ()=> window.open( url, "_blank" ) }>
                     <div className="relative w-full h-[230px]">
                         <img 
                             src={ image }
@@ -40,25 +40,27 @@ const ProjectCard =({ index, name, description, tags, image, source_code_link, u
                             </div>
                         </div>
                     </div>
+                </div>
 
                     {/* nombre y descripción de los proyectos */}
-                    <div className="mt-5">
-                        <h3 className="text-white font-bold text-[24px]">{ name }</h3>
-                        <p className="mt-2 text-secondary text-[14px]">{ description }</p>
+                    <div onClick={ ()=> window.open( url, "_blank" ) }>
+                        <div className="mt-5">
+                            <h3 className="text-white font-bold text-[24px]">{ name }</h3>
+                            <p className="mt-2 text-secondary text-[14px]">{ description }</p>
+                        </div>
+                        
+                        {/* poner las main tecnologies de el proyecto */}
+                        <div className="mt-4 flex flex-wrap gap-2">
+                            { tags.map((tag)=>(
+                                <p 
+                                    key={ tag.name } 
+                                    className={`text-[14px] ${ tag.color }`}
+                                >
+                                    #{ tag.name }
+                                </p>
+                            ))}
+                        </div>
                     </div>
-                    
-                    {/* poner las main tecnologies de el proyecto */}
-                    <div className="mt-4 flex flex-wrap gap-2">
-                        { tags.map((tag)=>(
-                            <p 
-                                key={ tag.name } 
-                                className={`text-[14px] ${ tag.color }`}
-                            >
-                                #{ tag.name }
-                            </p>
-                        ))}
-                    </div>
-                </Link>
             </Tilt>
         </motion.div>
     )
