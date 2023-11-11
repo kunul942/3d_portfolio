@@ -17,7 +17,7 @@ const ProjectCard =({ index, name, description, tags, image, source_code_link, u
                 className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
             >   
                 {/* mostrar card de los proyectos */}
-                {/* <div onClick={ ()=> window.open( url, "_blank" ) }> */}
+                <Link to={url}>
                     <div className="relative w-full h-[230px]">
                         <img 
                             src={ image }
@@ -58,7 +58,7 @@ const ProjectCard =({ index, name, description, tags, image, source_code_link, u
                             </p>
                         ))}
                     </div>
-                {/* </div> */}
+                </Link>
             </Tilt>
         </motion.div>
     )
