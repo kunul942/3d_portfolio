@@ -11,13 +11,14 @@ import { Link } from 'react-router-dom'
 
 const ProjectCard =({ index, name, description, tags, image, source_code_link, url })=>{
     return(
-        <motion.div variants={ fadeIn("up", "spring", index * 0.5, 0.75) }>
+        // <motion.div variants={ fadeIn("up", "spring", index * 0.5, 0.75) }>
             <Tilt 
                 options={{max: 45, scale: 1, speed: 450}}
                 className="bg-tertiary p-6 rounded-2xl sm:w-[360px] w-full"
             >   
                 {/* mostrar card de los proyectos */}
                 <div onClick={ ()=> window.open( url, "_blank" ) }>
+
                     <div className="relative w-full h-[230px]">
                         <img 
                             src={ image }
@@ -60,7 +61,7 @@ const ProjectCard =({ index, name, description, tags, image, source_code_link, u
                     </div>
                 </div>
             </Tilt>
-        </motion.div>
+        // {/* </motion.div> */}
     )
 }
 
