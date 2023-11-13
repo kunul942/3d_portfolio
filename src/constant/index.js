@@ -121,7 +121,7 @@ import {
       // company_name: "Starbucks",
       icon: weddingJoseDaniel,
       iconBg: "#383E56",
-      date: "May 2023 - August 2023",
+      date: "June 2023 - August 2023",
       points: [
         {
           title: 'Calient Collaboration:',
@@ -146,7 +146,7 @@ import {
       // company_name: "Tesla",
       icon: taller,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "March 2023 - May 2023",
       points: [
         {
           title: 'Brand Positioning:',
@@ -171,7 +171,7 @@ import {
       // company_name: "Shopify",
       icon: calendar,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "November 2022 - February 2023",
       points: [
         {
           title: 'Client Collaboration:',
@@ -196,7 +196,7 @@ import {
       // company_name: "Meta",
       icon: tsks,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "August 2023 - October 2023",
       points: [
         {
           title: 'Feature-rich Task Management:',
