@@ -117,104 +117,37 @@ import {
   
   const experiences = [
     {
-      title: "WEDDING JOSE DANIEL",
-      // company_name: "Starbucks",
-      icon: weddingJoseDaniel,
-      iconBg: "#383E56",
-      date: "June 2023 - August 2023",
-      points: [
-        {
-          title: 'Calient Collaboration:',
-          text: ' Worked closely with Jose Daniel to understand his vision, preferences, and specific requirements, ensuring a personalized and tailored photography experience for his wedding ceremonies.'
-        },
-        {
-          title: 'Project Planning and Coordination:',
-          text: ' Developed a detailed project plan, outlining timelines, shot lists, and logistical considerations. Coordinated with the photography team to ensure a smooth workflow on the day of the event.'
-        },
-        {
-          title: 'Creative Direction:',
-          text: ' Provided creative direction to the photography team, contributing to the development of a unique visual narrative that captured the emotions and moments of the wedding day.'
-        },
-        {
-          title: 'Brand Representation:',
-          text: ' Upheld the professional image of the freelance photography service, contributing to positive word-of-mouth referrals and potential future collaborations.'
-        },
-      ],
-    },
-    {
-      title: "TALLER JR",
-      // company_name: "Tesla",
-      icon: taller,
-      iconBg: "#E6DEDD",
-      date: "March 2023 - May 2023",
-      points: [
-        {
-          title: 'Brand Positioning:',
-          text: " Conducted a thorough analysis of Taller JRs strengths, unique selling points, and market positioning. Developed and implemented a strategic brand positioning that highlighted the shop's expertise and commitment to customer satisfaction." 
-        },
-        {
-          title: 'Marketing Strategy Development:',
-          text: ' Devised a tailored marketing strategy that encompassed both online and offline channels. This included social media campaigns, targeted advertising, and traditional marketing collateral to maximize reach and engagement.'
-        },
-        {
-          title: 'Online Presence Enhancement:',
-          text: " Overhauled Taller JR's online presence by optimizing their website, creating engaging social media content, and implementing effective search engine optimization (SEO) techniques. This resulted in increased visibility and online traffic."
-        },
-        {
-          title: 'Collaboration with Stakeholders:',
-          text: ' Worked closely with the Taller JR team to understand their goals and gather insights into their customer base. Fostered strong communication channels to ensure alignment with the brand vision throughout the project.'
-        },
-      ],
-    },
-    {
-      title: "CALENDAR",
-      // company_name: "Shopify",
-      icon: calendar,
-      iconBg: "#383E56",
-      date: "November 2022 - February 2023",
-      points: [
-        {
-          title: 'Client Collaboration:',
-          text: " Collaborated closely with the client to understand their specific requirements, preferences, and vision for the personal calendar application. Conducted regular feedback sessions to ensure alignment with the client's needs throughout the development process." 
-        },
-        {
-          title: 'User-Centric Design:',
-          text: ' Implemented a user-centric design approach, ensuring an intuitive and visually appealing interface for seamless user experience. Incorporated customizable features to allow users to tailor the calendar to their unique preferences.'
-        },
-        {
-          title: 'Functionality Development:',
-          text: " Engineered a robust set of features, including event creation, reminders, recurring events, and synchronization capabilities. Integrated advanced functionalities such as color-coded categorization, priority settings, and collaborative sharing options."
-        },
-        {
-          title: 'Cross-Platform Compatibility:',
-          text: ' Ensured cross-platform compatibility, making the calendar application accessible across various devices and operating systems. Implemented responsive design principles for optimal usability on both desktop and mobile platforms.'
-        },
-      ],
-    },
-    {
-      title: "TSKS",
-      // company_name: "Meta",
+      title: "FULL STACK ENGINEER",
+      company_name: "Tsks Chat Real Time",
       icon: tsks,
       iconBg: "#E6DEDD",
       date: "August 2023 - October 2023",
-      points: [
-        {
-          title: 'Feature-rich Task Management:',
-          text: ' Engineered a sophisticated task management system that allows users to create, prioritize, and categorize tasks. Implemented features such as due dates, reminders, and task completion tracking to enhance productivity.'
-        },
-        {
-          title: 'Intuitive User Interface: ',
-          text: ' Designed an intuitive and visually appealing user interface for a seamless user experience. Prioritized user-centric design principles to ensure ease of navigation and accessibility across various devices.'
-        },
-        {
-          title: 'Real-time Chat Functionality:',
-          text: ' Integrated a real-time chat feature, enabling users to communicate and collaborate seamlessly within the app. Utilized WebSocket technology to facilitate instant messaging, ensuring quick and efficient communication.'
-        },
-        {
-          title: 'Collaborative Task Management: ',
-          text: ' Enabled collaborative task management by allowing users to share tasks and projects with team members. Integrated features for assigning tasks, commenting on tasks, and tracking updates in real-time.'
-        },
-      ],
+      points: [{text:'I conceptualized, designed, and implemented Tsks, a dynamic application that seamlessly integrates task management and real-time communication. This multifaceted platform offers users a comprehensive solution for organizing their tasks efficiently while facilitating instant collaboration through a robust real-time chat feature.'}],
+    },
+    {
+      title: "FRONTEND ENGINEER",
+      company_name: "Wedding Jose Daniel",
+      icon: weddingJoseDaniel,
+       iconBg: "#383E56",
+      date: "June 2023 - August 2023",
+      points: [{ text:`Collaborated closely with Jose Daniel to understand his brand identity, style, and specific requirements for the website. Conducted in-depth consultations to align the design with the photographer's artistic vision and business goals. Implemented an intuitive navigation structure, making it easy for visitors to explore different sections of the website, view portfolios, and access essential information such as contact details and service offerings.` }]
+      ,
+    },
+    {
+      title: "FRONTEND ENGINEER",
+      company_name: "Taller JR",
+      icon: taller,
+      iconBg: "#E6DEDD",
+      date: "March 2023 - May 2023",
+        points: [{text: `Creating an online platform that not only showcased the shop's services but also enhanced its digital presence, I successfully delivered a visually appealing, user-friendly, and feature-rich website. Ensured seamless user experiences, whether visitors accessed the website on desktops, tablets, or smartphones`}],
+    },
+    {
+      title: "FULL STACK ENGINEER",
+      company_name: "Calendar",
+      icon: calendar,
+      iconBg: "#383E56",
+      date: "November 2022 - February 2023",
+      points: [{ text: 'Implemented a user-centric design approach, ensuring an intuitive and visually appealing interface for a seamless user experience. Incorporated customizable features to allow users to tailor the calendar to their unique preferences. Engineered a robust set of features, including event creation, reminders, recurring events, and synchronization capabilities. Integrated advanced functionalities such as color-coded categorization, priority settings, and collaborative sharing options.' }],
     },
   ];
   
