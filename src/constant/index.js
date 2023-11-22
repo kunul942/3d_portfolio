@@ -129,17 +129,9 @@ import {
       company_name: "Wedding Jose Daniel",
       icon: weddingJoseDaniel,
        iconBg: "#383E56",
-      date: "June 2023 - August 2023",
+      date: "January 2023 - June 2023",
       points: [{ text:`Collaborated closely with Jose Daniel to understand his brand identity, style, and specific requirements for the website. Conducted in-depth consultations to align the design with the photographer's artistic vision and business goals. Implemented an intuitive navigation structure, making it easy for visitors to explore different sections of the website, view portfolios, and access essential information such as contact details and service offerings.` }]
       ,
-    },
-    {
-      title: "FRONTEND ENGINEER",
-      company_name: "Taller JR",
-      icon: taller,
-      iconBg: "#E6DEDD",
-      date: "March 2023 - May 2023",
-        points: [{text: `Creating an online platform that not only showcased the shop's services but also enhanced its digital presence, I successfully delivered a visually appealing, user-friendly, and feature-rich website. Ensured seamless user experiences, whether visitors accessed the website on desktops, tablets, or smartphones`}],
     },
     {
       title: "FULL STACK ENGINEER",
@@ -148,6 +140,14 @@ import {
       iconBg: "#383E56",
       date: "November 2022 - February 2023",
       points: [{ text: 'Implemented a user-centric design approach, ensuring an intuitive and visually appealing interface for a seamless user experience. Incorporated customizable features to allow users to tailor the calendar to their unique preferences. Engineered a robust set of features, including event creation, reminders, recurring events, and synchronization capabilities. Integrated advanced functionalities such as color-coded categorization, priority settings, and collaborative sharing options.' }],
+    },
+    {
+      title: "FRONTEND ENGINEER",
+      company_name: "Taller JR",
+      icon: taller,
+      iconBg: "#E6DEDD",
+      date: "May 2022 - November 2022",
+        points: [{text: `Creating an online platform that not only showcased the shop's services but also enhanced its digital presence, I successfully delivered a visually appealing, user-friendly, and feature-rich website. Ensured seamless user experiences, whether visitors accessed the website on desktops, tablets, or smartphones`}],
     },
   ];
   
@@ -179,66 +179,66 @@ import {
   ];
   
   const projects = [
-    {
-      name: "Wedding Jose Daniel",
-      description:
-        "Wedding Jose Daniel is a professionally crafted React-based photography website, elegantly styled with Tailwind CSS. Experience seamless navigation and visually captivating displays, showcasing the timeless artistry of Jose Daniel's wedding photography.",
-        tags: [
-          {
-            name: "react",
-            color: "blue-text-gradient",
-          },
-          {
-            name: "javascript",
-            color: "green-text-gradient",
-          },
-          {
-            name: "tailwind",
-            color: "pink-text-gradient",
-          },
-          {
-            name: "webdevelopment",
-            color: "blue-text-gradient",
-          },
-          {
-            name: "tailwind",
-            color: "green-text-gradient",
-          },
-        ],
-      image: projectWeddingJoseDaniel,
-      url: 'https://weddingjosedaniel.vercel.app/',
-      source_code_link: "https://github.com/kunul942/jose-daniel-photography",
-    },
-    {
-      name: "Taller JR",
-      description:
-        "Taller JR is a website developed using React, JavaScript, and styled with Tailwind CSS. Explore a seamless and visually appealing interface and technology to showcase the automotive expertise and services offered by Taller JR.",
-        tags: [
-          {
-            name: "react",
-            color: "blue-text-gradient",
-          },
-          {
-            name: "javascript",
-            color: "green-text-gradient",
-          },
-          {
-            name: "tailwind",
-            color: "pink-text-gradient",
-          },
-          {
-            name: "webdevelopment",
-            color: "blue-text-gradient",
-          },
-          {
-            name: "tailwind",
-            color: "green-text-gradient",
-          },
-        ],
-      image: projectTallerJR,
-      url: 'https://taller-jr.vercel.app/',
-      source_code_link: "https://github.com/kunul942/tallerJr",
-    },
+    // {
+    //   name: "Wedding Jose Daniel",
+    //   description:
+    //     "Wedding Jose Daniel is a professionally crafted React-based photography website, elegantly styled with Tailwind CSS. Experience seamless navigation and visually captivating displays, showcasing the timeless artistry of Jose Daniel's wedding photography.",
+    //     tags: [
+    //       {
+    //         name: "react",
+    //         color: "blue-text-gradient",
+    //       },
+    //       {
+    //         name: "javascript",
+    //         color: "green-text-gradient",
+    //       },
+    //       {
+    //         name: "tailwind",
+    //         color: "pink-text-gradient",
+    //       },
+    //       {
+    //         name: "webdevelopment",
+    //         color: "blue-text-gradient",
+    //       },
+    //       {
+    //         name: "tailwind",
+    //         color: "green-text-gradient",
+    //       },
+    //     ],
+    //   image: projectWeddingJoseDaniel,
+    //   url: 'https://weddingjosedaniel.vercel.app/',
+    //   source_code_link: "https://github.com/kunul942/jose-daniel-photography",
+    // },
+    // {
+    //   name: "Taller JR",
+    //   description:
+    //     "Taller JR is a website developed using React, JavaScript, and styled with Tailwind CSS. Explore a seamless and visually appealing interface and technology to showcase the automotive expertise and services offered by Taller JR.",
+    //     tags: [
+    //       {
+    //         name: "react",
+    //         color: "blue-text-gradient",
+    //       },
+    //       {
+    //         name: "javascript",
+    //         color: "green-text-gradient",
+    //       },
+    //       {
+    //         name: "tailwind",
+    //         color: "pink-text-gradient",
+    //       },
+    //       {
+    //         name: "webdevelopment",
+    //         color: "blue-text-gradient",
+    //       },
+    //       {
+    //         name: "tailwind",
+    //         color: "green-text-gradient",
+    //       },
+    //     ],
+    //   image: projectTallerJR,
+    //   url: 'https://taller-jr.vercel.app/',
+    //   source_code_link: "https://github.com/kunul942/tallerJr",
+    // },
     {
       name: "Calendar",
       description:
