@@ -121,7 +121,7 @@ import {
       company_name: "Tsks Chat Real Time",
       icon: tsks,
       iconBg: "#E6DEDD",
-      date: "August 2023 - October 2023",
+      date: "August 2023 - November 2023",
       points: [{text:'I conceptualized, designed, and implemented Tsks, a dynamic application that seamlessly integrates task management and real-time communication. This multifaceted platform offers users a comprehensive solution for organizing their tasks efficiently while facilitating instant collaboration through a robust real-time chat feature.'}],
     },
     {
@@ -146,7 +146,7 @@ import {
       company_name: "Taller JR",
       icon: taller,
       iconBg: "#E6DEDD",
-      date: "May 2022 - November 2022",
+      date: "Jule 2021 - November 2022",
         points: [{text: `Creating an online platform that not only showcased the shop's services but also enhanced its digital presence, I successfully delivered a visually appealing, user-friendly, and feature-rich website. Ensured seamless user experiences, whether visitors accessed the website on desktops, tablets, or smartphones`}],
     },
   ];
