@@ -15,7 +15,7 @@ const Hero = () =>{
                 {/* Introduccion de quien soy */}
                 <div>
                     <h1 className={`${ styles.heroHeadText }text-white mt-[10rem]`}>
-                        Hi, I'm <span className="text-[#915eff]">Kunu</span>
+                        Hi, I'm <span className="text-[#915eff]">Jonatan</span>
                     </h1>
                     <p className={`${ styles.heroSubText } mt-2 text-white-100`}>
                         I develop Full Stack Web Applications <br className="sm:block hidden"/> 
